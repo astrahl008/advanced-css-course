@@ -11,6 +11,20 @@ Dark green: #28b485
     padding: 0px;
     box-sizing: border-box;
 }
-.header {
 
+body {
+    font-family: "lato" sans-serif;
+    font-weight: 480;
+    font-size: 16px;
+    line-height: 1.7;
+    color: #777;
+    padding: 20px;
+}
+
+.header {
+    height: 95vh;
+    background-image: linear-gradient(to right bottom,#7ed56f8c,#28b4859c) ,url(../img/hero.jpg);
+    background-size: cover;
+    background-position: top;
+    clip-path: polygon(0 0,100% 0,100% 75vh,0 100%);
 }
